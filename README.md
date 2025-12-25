@@ -1,4 +1,6 @@
 ![image alt](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/ccda857f9813401275949b242790c87a41544596/Screenshot_2025-12-24_20-35-01.png)
+
+![image ali](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/04ce355827ffa5cd9d070248858478728e7b7337/Screenshot_2025-12-24_20-37-59.png)
 🔥 SilentOps Framework
 
 Author: Rakan Khaled
