@@ -104,53 +104,32 @@ SilentOps Framework runs natively on **Kali Linux** with minimal setup.
 
 ### 1️⃣ Clone or Place the Framework
 
-```bash
+
 cd /home/kali/
 git clone https://github.com/rakan-khaled1/Silent_Ops_FrameWork.git
 Or ensure the folder exists:
 
-bash
-Copy code
+
+
 /home/kali/Silent_Ops_FrameWork
 2️⃣ Navigate to the Directory
-bash
-Copy code
+
 cd /home/kali/Silent_Ops_FrameWork
 3️⃣ Set Execution Permissions
-bash
-Copy code
+
 chmod +x silentops.sh
 chmod +x ui_engine.sh
 (Adjust filenames if needed.)
 
-4️⃣ Install Required Tools
-SilentOps depends on standard Kali Linux utilities:
-
-nmap
-
-theHarvester
-
-gobuster
-
-hydra
-
-patator
-
-john
-
-pdf2john
-
-zip2john
-
-dig
-
-Install missing tools:
 
 
-Copy code
+
+
+
+ 
 
 sudo apt update && sudo apt install nmap theharvester gobuster hydra patator john dnsutils -y
-5️⃣ Wordlists Setup
+4️⃣ Wordlists Setup
 
 Default wordlists are stored in:
 
@@ -166,7 +145,7 @@ PDF / ZIP / HASH wordlists
 
 Web path lists
 
-6️⃣ Run the Framework
+5️⃣ Run the Framework
 
 Copy code
 sudo bash silentops.sh
