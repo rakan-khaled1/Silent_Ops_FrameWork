@@ -1,6 +1,6 @@
 ![SilentOps Screenshot 1](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/77f37a988916d4977e7419f47d862f153718e8d7/first.png)
 
-![SilentOps Screenshot 2](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/af4d52fcc6bc95e56749b328c594ecb154d8f1e6/2.png)
+![SilentOps Screenshot 2](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/0d8be71260f5e43c775f7acbc1033086088673d1/secound.png)
 
 ![SilentOps Screenshot 3](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/b1d6918a3920ff1d361050d27a6f242150db5dae/3.png)
 
