@@ -1,149 +1,129 @@
-![image alt](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/ff60377293639326c492c9b2c630f00ca7999e96/1.png)
+![SilentOps Screenshot 1](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/ff60377293639326c492c9b2c630f00ca7999e96/1.png)
 
-![image ali](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/af4d52fcc6bc95e56749b328c594ecb154d8f1e6/2.png)
+![SilentOps Screenshot 2](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/af4d52fcc6bc95e56749b328c594ecb154d8f1e6/2.png)
 
-![image alt](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/b1d6918a3920ff1d361050d27a6f242150db5dae/3.png)
+![SilentOps Screenshot 3](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/b1d6918a3920ff1d361050d27a6f242150db5dae/3.png)
 
+# 🔥 SilentOps Framework
 
-🔥 SilentOps Framework
+**Author:** Rakan Khaled  
+**Platform:** Kali Linux  
+**Category:** Offensive Security / Penetration Testing  
+**Language:** Bash  
 
-Author: Rakan Khaled
+---
 
-Platform: Kali Linux
+## 📌 Overview
 
-Category: Offensive Security / Penetration Testing
+**SilentOps Framework** is a modular, terminal-based offensive security framework built for **educational purposes and authorized penetration testing**.
 
-Language: Bash
-
-
-📌 Overview
-
-SilentOps Framework is a modular, terminal-based offensive security framework built for educational purposes and authorized penetration testing.
-
-The framework unifies server reconnaissance, online brute-force attacks, and offline password cracking into a single interactive menu-driven environment, following realistic penetration testing workflows.
+The framework unifies **server reconnaissance**, **online brute-force attacks**, and **offline password cracking** into a single interactive menu-driven environment, following realistic penetration testing workflows.
 
 SilentOps is designed to be:
 
-Simple to deploy
+- Simple to deploy  
+- Easy to understand  
+- Practical for students and junior red-teamers  
+- Fully compatible with Kali Linux toolsets  
 
-Easy to understand
+---
 
-Practical for students and junior red-teamers
+## ⚠️ Legal Disclaimer
 
-Fully compatible with Kali Linux toolsets
+This framework is intended **ONLY** for:
 
-⚠️ Legal Disclaimer
+- Educational use  
+- Cybersecurity training labs  
+- Authorized penetration testing  
 
-This framework is intended ONLY for:
+🚫 **Any use against systems you do not own or have explicit permission to test is illegal.**  
+The author is **not responsible** for misuse or damage caused by this tool.
 
-Educational use
+---
 
-Cybersecurity training labs
+## 🧩 Framework Structure
 
-Authorized penetration testing
+SilentOps is divided into **two main sections**:
 
-🚫 Any use against systems you do not own or have explicit permission to test is illegal.
-The author is not responsible for misuse or damage caused by this tool.
+---
 
-🧩 Framework Structure
-
-SilentOps is divided into two main sections:
-
-🔍 Section 1: server Reconnaissance & Enumeration
+### 🔍 Section 1: Server Reconnaissance & Enumeration
 
 Includes:
 
-Email harvesting (theHarvester)
+- Email harvesting (theHarvester)  
+- IPv4 & IPv6 enumeration  
+- MX & NS DNS record discovery  
+- Full port scanning & OS detection  
+- Vulnerability scanning (CVSS-based)  
+- SMB enumeration  
+- Web directory brute-force (Gobuster)  
 
-IPv4 & IPv6 enumeration
+---
 
-MX & NS DNS record discovery
+### 💥 Section 2: Attack & Password Cracking
 
-Full port scanning & OS detection
+#### 🔐 Online Password Attacks
+- FTP brute-force (Hydra)  
+- SSH brute-force (Patator)  
 
-Vulnerability scanning (CVSS-based)
+#### 🧠 Offline Password Attacks
+- PDF password cracking  
+- ZIP password cracking  
+- MD5 hash cracking  
 
-SMB enumeration
+---
 
-Web directory brute-force (Gobuster)
+## 📚 Wordlists & Password Databases
 
-💥 Section 2: Attack & Password Cracking
-🔐 Online Password Attacks
+All offline cracking modules rely on a **unified password database**.
 
-FTP brute-force (Hydra)
+### 🔑 Default Offline Wordlist
 
-SSH brute-force (Patator)
-
-🧠 Offline Password Attacks
-
-PDF password cracking
-
-ZIP password cracking
-
-MD5 hash cracking
-
-📚 Wordlists & Password Databases
-
-All offline cracking modules rely on a unified password database.
-
-🔑 Default Offline Wordlist
-
-Based on RockYou
-
-Total passwords for each pdf & zip & hash wordlist : 2904739
-
-Used consistently across:
-
-PDF cracking
-
-ZIP cracking
-
-Hash cracking
+- Based on **RockYou**
+- **Total passwords (per PDF / ZIP / HASH wordlist):** `2,904,739`
+- Used consistently across:
+  - PDF cracking
+  - ZIP cracking
+  - Hash cracking
 
 This ensures:
+- Consistent attack strength  
+- Predictable cracking behavior  
+- Standardized testing results  
 
-Consistent attack strength
+📌 Users may supply **custom wordlists** at runtime.
 
-Predictable cracking behavior
+---
 
-Standardized testing results
+## 🛠 Installation
 
-📌 Users may supply custom wordlists at runtime.
+SilentOps Framework runs natively on **Kali Linux** with minimal setup.
 
-🛠 Installation
+---
 
-SilentOps Framework runs natively on Kali Linux with minimal setup.
+### 1️⃣ Clone or Place the Framework
 
-1️⃣ Clone or Place the Framework
+```bash
 cd /home/kali/
-
-
 git clone https://github.com/rakan-khaled1/Silent_Ops_FrameWork.git
-
-
-
 Or ensure the folder exists:
 
-
+bash
+Copy code
 /home/kali/Silent_Ops_FrameWork
-
-
 2️⃣ Navigate to the Directory
-
+bash
+Copy code
 cd /home/kali/Silent_Ops_FrameWork
-
 3️⃣ Set Execution Permissions
-
+bash
+Copy code
 chmod +x silentops.sh
-
-
 chmod +x ui_engine.sh
-
-
 (Adjust filenames if needed.)
 
 4️⃣ Install Required Tools
-
 SilentOps depends on standard Kali Linux utilities:
 
 nmap
@@ -166,15 +146,15 @@ dig
 
 Install missing tools:
 
+bash
+Copy code
 sudo apt update && sudo apt install nmap theharvester gobuster hydra patator john dnsutils -y
-
 5️⃣ Wordlists Setup
-
 Default wordlists are stored in:
 
+bash
+Copy code
 /home/kali/Silent_Ops_FrameWork/
-
-
 This directory includes:
 
 FTP usernames & passwords
@@ -186,10 +166,10 @@ PDF / ZIP / HASH wordlists
 Web path lists
 
 6️⃣ Run the Framework
+bash
+Copy code
 sudo bash silentops.sh
-
 📝 Logging & Output
-
 Optional result saving
 
 Timestamped output files
@@ -199,6 +179,8 @@ Live output using tee
 Organized per execution session
 
 📁 Default Directory Structure
+text
+Copy code
 Silent_Ops_FrameWork/
 │
 ├── silentops.sh
@@ -214,9 +196,7 @@ Silent_Ops_FrameWork/
     ├── zip_passwords_wordlist.txt
     ├── hash_wordlist.txt
     └── paths.txt
-
 🎯 Design Philosophy
-
 SilentOps was developed with a focus on:
 
 Clean Bash scripting
@@ -232,7 +212,6 @@ Minimal dependencies
 This is not an automated hacking tool, but a learning-focused offensive framework that reflects real-world methodologies.
 
 🚀 Who Is This For?
-
 Cybersecurity students
 
 Ethical hacking learners
@@ -244,13 +223,8 @@ Lab-based penetration testing
 Academic security projects
 
 🧠 Final Notes
-
 Offline cracking efficiency depends on wordlist quality
-
 
 SilentOps allows controlled, transparent testing
 
 Always test legally and responsibly
-
-🔥 SilentOps Framework
-Stay Silent. Stay Effective.
