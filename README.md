@@ -2,7 +2,7 @@
 
 ![SilentOps Screenshot 2](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/0d8be71260f5e43c775f7acbc1033086088673d1/secound.png)
 
-![SilentOps Screenshot 3](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/91882102cd65a1c7f4fa30565a0ca4b47d0d412c/333.png)
+![SilentOps Screenshot 3](https://github.com/rakan-khaled1/Silent_Ops_FrameWork/blob/b047d6f55c8edaba0964cac90a269a11ed95d8f9/newsection.png)
 
 # 🔥 SilentOps Framework
 
