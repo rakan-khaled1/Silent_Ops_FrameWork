@@ -65,7 +65,8 @@ Includes:
 
 #### 🔐 Online Password Attacks
 - FTP brute-force (Hydra)  
-- SSH brute-force (Patator)  
+- SSH brute-force (Patator)
+- SMB brute-force (nmap) 
 
 #### 🧠 Offline Password Attacks
 - PDF password cracking  
